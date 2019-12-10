@@ -1,0 +1,21 @@
+p{
+    color: red
+
+}
+.mauxanh{
+    color: blue
+}
+#alo{
+    color: yellow;
+    font-size: 4em;
+}
+body{
+        
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnySH9i4B9_FLceBPO1XEbTuHgyxw6HXsYuSwLRv00JU7YLm9JVw);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dong{
+    background-color: red;
+    display: block
+}

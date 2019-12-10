@@ -1,0 +1,189 @@
+body{
+  background-color:#717371;
+}
+.background{
+  
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTptDddyBZG4i4cycd6ZIBP2wT8PQKhihUqenZF7GpzlvTZuPghGQ);
+    background-repeat: no-repeat;
+    background-size: cover;
+     width: 100%;
+    height: 600px;
+    position: relative;
+    top: -5px;
+    z-index: 40;
+    
+
+  }
+
+#modau{
+  display: block;
+  background:#3b3b3a;
+    width: 98.8%;
+    height: 60px;
+    position:fixed;
+    z-index: 15;
+    margin-top: -8px;
+
+    
+    
+   
+}
+
+#modau1{
+  display: block;
+  background:#7da72b;
+    width: 98.8%;
+    height: 50px;
+padding: 8px;
+position: relative;
+z-index: 40;
+top:-3px;
+    
+   
+}
+
+a{
+  text-decoration: none;
+  color:#eff3f8;
+}
+a:hover {
+  color:greenyellow;      
+}
+.modau{
+    
+    list-style-type: none;
+    color: #eff3f8;
+    float: right;
+    width:300px;
+    position: relative;
+    top:-1px;
+    right: -30px;
+    font-size:20px;
+
+}
+.modau1{
+    
+    list-style-type: none;
+    color: #eff3f8;
+    float: right;
+    width:300px;
+    position: relative;
+    top:1px;
+    right: -30px;
+    font-size:20px;
+
+}
+.anhdaidien{
+   
+    position: relative;
+    top: -520px;
+    right: -520px;
+    z-index: 40;
+    
+}
+#anhdaidien{
+  width:260px;
+  height:230px;
+  box-shadow: grey;
+  border: #878885;
+}
+#ten{
+    position: relative;
+    top: -470px;
+    right: -490px;
+    color: #eff3f8;
+    z-index: 40;
+     
+    font-size: 35px;
+}
+#facebook{
+    width: 55px;
+    height:50px;
+    position: relative;
+    top:-460px;
+    right:-620px;
+    border: 5px outset #212222;
+    z-index: 40;
+}
+.about{
+  background:#f3f4f4;
+  width: 1050px;
+  height: 250px;
+  position:relative;
+  right:-150px;
+  top: -180px;
+  border-radius:10px;
+  box-shadow: 6px 5px 50px #ccc;
+  z-index: 10px;
+}
+.about1{
+  margin: 20px;
+  width:400px;
+  position: relative;
+  top: 20px;
+  z-index: 16;
+    
+}
+.about2{
+  width:500px;
+  float:right;
+  position:relative;
+  top:-170px;
+  right: -100px;
+  z-index:16;
+}
+.font{
+    font-size: 30px;
+}
+#skill{
+  font-size: 30px;
+  position: relative;
+  top: -48px;
+  right: -550px;
+  z-index: 10;
+
+}
+.skill{
+   background:#f3f4f4;
+  width: 1050px;
+  height: 250px;
+  position:relative;
+  right:-150px;
+  top: -20px;
+  border-radius:10px;
+  box-shadow: 4px 5px 50px ;
+  z-index: 10;
+}
+.skill1  {
+  font-size:20px;
+  color: green;  
+  position:relative;
+  top:30px
+  
+}
+#skill1{
+  position:relative;
+  top:-20px;
+  right: -565px;
+}
+.phantram{
+  width:380px;
+  height: 8px;
+  background:#ceedc0;
+  position: relative;
+  right: -26px;
+  border-radius:10px;
+  border: solid 0.5px #baf99d ;
+}
+.phantram1{
+  background:green;
+}
+.phantram3{
+   width:380px;
+  height: 8px;
+  background:#ceedc0;
+  position: relative;
+  right:-590px;
+  border-radius:10px;
+  border: solid 0.5px #baf99d ;
+}

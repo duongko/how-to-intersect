@@ -1,0 +1,15 @@
+#menu{
+    background: blue;
+
+}
+#menu ul {
+text-align: center;
+list-style-type:none;
+
+display:inline;
+color: white;
+}
+li{
+    color: white;
+    text-decoration:none;
+}
