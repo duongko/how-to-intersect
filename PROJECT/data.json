@@ -1,1 +1,12 @@
-[{"id":0,"questionContent":"duong dep trai\r\n","questionAnswer":[]},{"id":1,"questionContent":"dương đẹp trai","questionAnswer":[]}]
+[
+    {
+        "id": 0,
+        "questionContent": "duong dep trai\r\n",
+        "questionAnswer": []
+    },
+    {
+        "id": 1,
+        "questionContent": "dương đẹp trai",
+        "questionAnswer": []
+    }
+]

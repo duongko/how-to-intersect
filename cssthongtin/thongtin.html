@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="thongtin.css">
+    <script src="./public/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+    <div class="khung">
+        <div class="ndkhung">
+            <h3>ABOUT</h3>
+            <div class="thankhung">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, itaque eum eos commodi impedit
+                    molestiae necessitatibus id debitis! Repudiandae officiis laudantium, perferendis dolore in animi.
+                    Minus aut explicabo rerum quo?</p>
+            </div>
+        </div>
+        <div class="ndkhung">
+            <h3>CONTANT</h3>
+            <div class="thankhung">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, itaque eum eos commodi impedit
+                    molestiae necessitatibus id debitis! Repudiandae officiis laudantium, perferendis dolore in animi.
+                    Minus aut explicabo rerum quo?</p>
+            </div>
+        </div>
+        <div class="ndkhung">
+            <h3>SKILL</h3>
+            <div class="thankhung">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, itaque eum eos commodi impedit
+                    molestiae necessitatibus id debitis! Repudiandae officiis laudantium, perferendis dolore in animi.
+                    Minus aut explicabo rerum quo?</p>
+            </div>
+        </div>
+        <div class="ndkhung">
+            <h3>FACEBOOK</h3>
+            <div class="thankhung">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, itaque eum eos commodi impedit
+                    molestiae necessitatibus id debitis! Repudiandae officiis laudantium, perferendis dolore in animi.
+                    Minus aut explicabo rerum quo?</p>
+            </div>
+        </div>
+    </div>
+   
+</body>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".thankhung").slideUp();
+        $(".ndkhung h3").click(function () {
+            $(this).next(".thankhung").slideToggle();
+            $(this).toggleClass("maukhung");
+
+        })
+    })
+
+</script>
+
+</html>
