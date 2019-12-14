@@ -1,113 +1,37 @@
-<div class="main">
-    <div class="selection">
-        <h3>Sizes</h3>
-        <div class="checkbox">
-            <label>
-                <input type="checkbox" value="XS">
-                <span class="checkmark">XS</span>
-            </label>
-        </div>
-        <div class="checkbox">
-            <label>
-                <input type="checkbox" value="XS">
-                <span class="checkmark">XS</span>
-            </label>
-        </div>
-        <div class="checkbox">
-            <label>
-                <input type="checkbox" value="XS">
-                <span class="checkmark">XS</span>
-            </label>
-        </div>
-        <div class="checkbox">
-            <label>
-                <input type="checkbox" value="XS">
-                <span class="checkmark">XS</span>
-            </label>
-        </div>
-        <div class="checkbox">
-            <label>
-                <input type="checkbox" value="XS">
-                <span class="checkmark">XS</span>
-            </label>
-        </div>
-        <div class="checkbox">
-            <label>
-                <input type="checkbox" value="XS">
-                <span class="checkmark">XS</span>
-            </label>
-        </div>
-        <div class="checkbox">
-            <label>
-                <input type="checkbox" value="XS">
-                <span class="checkmark">XS</span>
-            </label>
-        </div>
-        <div class="checkbox">
-            <label>
-                <input type="checkbox" value="XS">
-                <span class="checkmark">XS</span>
-            </label>
-        </div>
+<link rel="stylesheet" href="trangchu.css"/>
+
+
+<body>
+<div class="trangchu">
+    <div class="menu">
+        <ul>
+            <li><a href="http://localhost:6969/trangchu">Trang chủ</a></li>
+            <li><a href="http://localhost:6969/sanpham">Sản phẩm</a></li>
+            <li><a href="http://localhost:6969/gioithieu">Giới thiệu</a></li>
+            <li class="feetback"><a href="http://localhost:6969/sanpham#">feedback</a></li>
+
+        </ul>
 
     </div>
-
-    <div class="product">
-        {{{HTML}}}
-       
-{{!-- {{#each products}}
-        <div class="item">
-
-            <img src="./img/anh1.jpg" alt="">
-            <p>{{this.title}}</p>
-            <div class="price">
-                <small>$</small>
-                <b>{{this.price}}</b>
-                <span>.99</span>
-            </div>
-            <div class="buy-btn">
-                Mua ne
-            </div>
-
+    <div class="background">
+        <div class="text">
+            <h2>D&N</h2>
+           
         </div>
-    
-{{/each}} --}}
-
-    </div>
-
-
-    <div class="shopping">
-        <div id="bag-button" class="bag"></div>
-        <div class="scroll">
-            <div class="shopping-header">
-                <span class="bag-header"></span>
-                <span class="title-header">Cart</span>
-            </div>
-            <div class="shopping-container">
-                <p class="empty-container">Khong co gi o day</p>
-            </div>
-            <div class="shopping-footer">
-                <div class="SUBTOTAL">
-                    SUBTOTAL
-                </div>
-                <div class="price">
-                    <p>$ 0.00</p>
-                </div>
-                <div class="footer-buybtn">
-                    Mua
-                </div>
-
-            </div>
+        <div class="anhnen">
+            <img src="http://theme.hstatic.net/1000331486/1000529168/14/home-banner.jpg?v=18"/>
+            
         </div>
     </div>
+</div>
+ <script type="text/javascript">
+        $(document).ready(function () {
+            $(".feetback").click(function () {
+            alert("nhan 1 lan nua hien feedback")
+            })
 
-    <script>
-        $(document).on("click", "#bag-button", function () {
-            $("#bag-button").replaceWith("<div id='close-button' class='close-btn'>X</div>")
-            $(".shopping").css("right", "0")
         })
-        $(document).on("click", "#close-button", function () {
-            $(".shopping").css("right", "-450px")
-            $("#close-button").replaceWith("<div id='bag-button' class='bag'></div>")
-        })
+
     </script>
+
+</body>

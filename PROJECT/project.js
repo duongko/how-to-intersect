@@ -3,6 +3,7 @@ const handlebars = require("express-handlebars");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const mongoClient = require('mongodb').MongoClient;
+const path= require("path")
 
 let app = express();
 
@@ -16,14 +17,14 @@ app.use(express.static("public"));
 
 // database
 
-mongoose.Promise = global.Promise;
- let dbLink = `mongodb://127.0.0.1:27017/project`; // for future use
- mongoose.connect(dbLink, { useNewUrlParser: true }, err => {
-   if (err) console.log("err database");
-   else {
-     console.log("Connected database");
-   }
- });
+
+let dbLink = `mongodb://localhost/final-project`; // for future use
+mongoose.connect(dbLink, { useNewUrlParser: true }, err => {
+  if (err) console.log("err database");
+  else {
+    console.log("Connected database");
+  }
+});
 
 let port = 6969; // for future use
 app.listen(port, err => {
@@ -32,8 +33,17 @@ app.listen(port, err => {
 });
 
 // set routers
-const homerouter = require("./routers/homerouter");
-// const mainrouter = require("./routers/mainrouter")
+//  const mainrouter = require("./routers/mainrouter");
 // app.use("/", mainrouter)
 
-app.use("/", homerouter);
+const homerouter = require("./routers/homerouter")
+const giohang = require("./routers/giohang")
+const productrouter = require("./routers/productrouter")
+const gioithieu = require("./routers/gioithieu")
+const lutru = require("./routers/lutru")
+
+app.use("/", lutru)
+app.use("/sanpham", productrouter)
+app.use("/", giohang)
+app.use("/", homerouter)
+app.use("/gioithieu", gioithieu)

@@ -1,0 +1,65 @@
+ <div class="menu">
+            <ul>
+                <li><a href="http://localhost:6969/trangchu">Trang chủ</a></li>
+                <li><a href="http://localhost:6969/sanpham">Sản phẩm</a></li>
+                <li><a href="http://localhost:6969/gioithieu">Giới thiệu</a></li>
+                <li class="feetback"><a href="http://localhost:6969/sanpham#">feedback</a></li>
+
+
+            </ul>
+            <div class="thongtin">
+                mới thành lập chưa có thông tin gì
+
+            </div>
+             <script type="text/javascript">
+        $(document).ready(function () {
+            $(".feetback").click(function () {
+            alert("nhan 1 lan nua hien feedback")
+            })
+
+        })
+
+    </script>
+
+<style>
+    }
+.menu ul{
+    position: fixed;
+    display: block;
+    top:0;
+    left: 0;
+    padding:50px 20px;
+    box-sizing: border-box;
+    width:15%;
+    height: 100%;
+    z-index: 2;
+    overflow-y: auto;
+    
+  
+}
+.menu ul li{
+    list-style-type: none;
+}
+.menu ul li a{
+    display: block;
+    color:rgb(24, 21, 21);
+    padding: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    transform: 0.5s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu ul li a:hover{
+    transform: translate(10px);
+    color:#f7974d;
+}
+.thongtin{
+    font-size: 3em;
+    position: relative;
+    left: 50%;
+    top:30%;
+}
+</style>
+        </div>

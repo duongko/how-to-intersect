@@ -1,0 +1,249 @@
+ 
+ div{
+    display: block;
+}
+.main{
+    display: flex;
+}
+
+.menu ul{
+    position: fixed;
+    display: block;
+    top:0;
+    left: 0;
+    padding:50px 20px;
+    box-sizing: border-box;
+    width:15%;
+    height: 100%;
+    z-index: 2;
+    overflow-y: auto;
+    
+  
+}
+.menu ul li{
+    list-style-type: none;
+}
+.menu ul li a{
+    display: block;
+    color:rgb(24, 21, 21);
+    padding: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    transform: 0.5s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu ul li a:hover{
+    transform: translate(10px);
+    color:#f7974d;
+}
+.product{
+  position: relative;
+   
+   display: flex;
+    width:80%;
+    height: 100%;
+    flex-wrap: wrap ;
+    left: 255px;
+    top: 56px;
+z-index: 2;
+}
+
+.product.out{
+    left: 20%;
+}
+
+.items{
+    width: 20%;
+    padding: 15px;
+    margin-bottom:20em ;
+  
+    position: relative;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+   
+
+}
+.items img{
+    position: absolute;
+    width: 90%;
+   
+        opacity: 1;
+        display: block;
+        width:100%;
+        height: auto;
+       
+        transition:.5s ease ;
+    
+    
+    
+    
+}
+.items .price{
+    position: relative;
+   width:20px;
+   font-size:larger;
+}
+ 
+
+.effect2{
+    position: absolute;
+    top:200px;
+    left:55%;
+    transform: translate(-50%,-50%);
+    width:50%;
+    height: 24px;
+    font-size:60px;
+    overflow: hidden;
+    opacity: 1;
+}
+.effect2 a{
+    text-decoration: none;
+    color:#1b1a1b;
+    font-size:24px;
+    display: block;
+    background: #ff7711;
+    text-align: center;
+    cursor: pointer;
+
+}
+.effect {
+    opacity: 0;
+}
+.items:hover img{
+    opacity: .5;
+}
+.items:hover .effect{
+    opacity: 1;
+}
+.items .title{
+    z-index: 3;
+    position: relative;
+    top:314px;
+}
+ 
+  .bag-content{
+      position: fixed;
+      top:0;
+      right:-380px;
+      padding:65px 20px;
+      
+      width:380px;
+      height: 100%;
+      background: black;
+      z-index: 3;
+}
+
+.product-title p{
+  display: block;
+    position: relative;
+    left: 250px;
+    width: 30%;
+    font-size: 30px;
+    color: #ececec;
+    text-align: right;
+    font-family: fantasy;
+    
+}
+.product-price p{
+  color: #ececec;
+  font-size: 30px;
+  position: relative;
+  left: 250px;
+  line-height: 50px;
+}
+.checkbox{
+    display: inline-block
+}
+
+.checkbox label {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    line-height: 50px;
+    left: 250px;
+}
+
+.checkbox label:hover span {
+    border: 1px solid #1b1a20;
+}
+
+.checkbox label input:checked~.checkmark{
+    background-color: #1b1a20;
+    color: #eeeeee;
+}
+
+.checkbox label input{
+    position: absolute;
+    opacity: 0;
+}
+
+.checkbox label .checkmark{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    font-size: .8em;
+    text-align: center;
+    background-color: #ececec;
+    border-radius: 50%;
+}
+.button{
+    position: relative;
+    left: 20px;
+    
+    background: #ececec;
+    text-align: center;
+    font-size: 30px;
+    width:25%;
+    height: auto;
+    cursor: pointer;
+}
+.button:hover{
+    background: chocolate;
+    color: #1b1a20;
+}
+
+.button1{
+    position: relative;
+    left: 122px;
+    top:-64px;
+    background: #ececec;
+    text-align: center;
+    font-size: 30px;
+    width:25%;
+    height: auto;
+    cursor: pointer;
+}
+.button1:hover{
+    background: chocolate;
+    color: #1b1a20;
+}
+.container{
+    position: relative;
+    right:-50px;
+    top:80px;
+}
+.thoat{
+    height: 2px;
+    line-height: .5em;
+}
+.thoat p{
+    color:#ff7711;
+    position: relative;
+   cursor: pointer;;
+    left:340px;
+    top:-70px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
+}
+.thoat p:hover{
+    font-size: 23px;
+}
+.container h2{
+    color:#ececec ;
+}
