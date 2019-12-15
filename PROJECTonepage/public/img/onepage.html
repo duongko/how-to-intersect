@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/onepage.css">
+    <script src="./public/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="menutren">
+            <ul>
+                <li><a href="#">CHAPTER 1</a></li>
+                <li><a href="#">CHAPTER 2</a></li>
+                <li><a href="#">CHAPTER 3</a></li>
+                <li><a href="#">CHAPTER 4</a></li>
+                <li><a href="#">CHAPTER 5</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="body">
+    <div class="home">
+
+    </div>
+    <div class="noidung1">
+        <h3 class="cangiua">We've been crafting beautiful websites, launching stunning brands and making clients happy
+            for years.</h3>
+    </div>
+    <div class="chap1">
+        <h2 class="chuto">1</h2>
+    </div>
+    <div class="noidung2">
+        <h3 class="cangiua">We've been crafting beautiful websites, launching stunning brands and making clients
+            happy for years.</h3>
+    </div>
+
+
+
+    <div class="chap2">
+        <h2 class="chuto">2</h2>
+    </div>
+    <div class="noidung3">
+        <h3 class="cangiua">We've been crafting beautiful websites, launching stunning brands and making clients
+            happy for years.</h3>
+    </div>
+
+
+
+    <div class="chap3">
+        <h2 class="chuto">3</h2>
+    </div>
+    <div class="noidung4">
+        <h3 class="cangiua">We've been crafting beautiful websites, launching stunning brands and making clients
+            happy for years.</h3>
+    </div>
+
+
+
+    <div class="chap4">
+        <h2 class="chuto">4</h2>
+    </div>
+    <div class="noidung5">
+        <h3 class="cangiua">We've been crafting beautiful websites, launching stunning brands and making clients
+            happy for years.</h3>
+    </div>
+
+
+
+    <div class="chap5">
+        <h2 class="chuto">5</h2>
+    </div>
+    <div class="noidung6">
+        <h3 class="cangiua">We've been crafting beautiful websites, launching stunning brands and making clients
+            happy for years.</h3>
+    </div>
+<div class="nut">
+    <img src="./public/img/arrow1_n.png">
+</div>
+
+</div>
+
+
+</body>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".menutren ul li:nth-child(1) a").on("click", function (event) {//nth-child(): sô thứ tự của selector//
+            event.preventDefault();
+            console.log('clik roi');
+            
+            $("body,html").animate({ scrollTop: $(".chap1").offset().top }, 300,);//$("selector").offset().top:tính vị trí 
+            
+        })
+        $(".menutren ul li:nth-child(2) a").on("click", function (event) {//nth-child(): sô thứ tự của selector//
+            event.preventDefault();
+            console.log('clik roi');
+            
+            $("body,html").animate({ scrollTop: $(".chap2").offset().top }, 300);//$("selector").offset().top:tính vị trí 
+            
+        })
+        $(".menutren ul li:nth-child(3) a").on("click", function (event) {//nth-child(): sô thứ tự của selector//
+            event.preventDefault();
+            console.log('clik roi');
+            
+            $("body,html").animate({ scrollTop: $(".chap3").offset().top }, 300);//$("selector").offset().top:tính vị trí 
+            
+        })
+        $(".menutren ul li:nth-child(4) a").on("click", function (event) {//nth-child(): sô thứ tự của selector//
+            event.preventDefault();
+            console.log('clik roi');
+            
+            $("body,html").animate({ scrollTop: $(".chap4").offset().top }, 300);//$("selector").offset().top:tính vị trí 
+            
+        })
+        $(".menutren ul li:nth-child(5) a").on("click", function (event) {//nth-child(): sô thứ tự của selector//
+            event.preventDefault();
+            console.log('clik roi');
+            
+            $("body,html").animate({ scrollTop: $(".chap5").offset().top }, 300);//$("selector").offset().top:tính vị trí 
+            
+        })
+        $(".nut").click(function(){
+            $('body,html').animate({scrollTop:0},250);
+        })
+      
+    })
+</script>
+
+
+</html>

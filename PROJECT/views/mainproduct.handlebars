@@ -1,4 +1,4 @@
-<div class="main">
+ <div class="main">
     <div class="menu">
         <ul>
             <li><a href="http://localhost:6969/trangchu">Trang chủ</a></li>
@@ -399,15 +399,15 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $(".feetback").click(function () {
-                $(".bag-content").animate({ right: 0 });
-                $(".product").animate({left:0});
-                $(".menu").animate({ opacity: 0 });
+                $(".bag-content").animate({ right: 0 },350);
+                $(".product").animate({left:0},350);
+                $(".menu").animate({ opacity: 0 },350);
               
             })
             $(".thoat p").click(function () {
-                $(".bag-content").animate({ right: -380});
-                $(".product").animate({ left:255});
-                $(".menu").animate({ opacity: 1 });
+                $(".bag-content").animate({ right: -380},350);
+                $(".product").animate({ left:255},350);
+                $(".menu").animate({ opacity: 1 },350);
 
             })
 

@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.menutren ul li {
+    float: left;
+
+    padding: 12px 28px;
+   
+    list-style-type: none;
+    margin-left: 88px;
+    margin-top: 5px;
+   
+}
+
+
+
+nav.menutren {
+    background: whitesmoke;
+    width: 100%;
+    /* height: 5px; */
+}
+
+.menutren ul {
+    height: 49px;
+    width: 100%;
+    margin-top: -3px;
+    position: fixed;
+    background: whitesmoke;
+}
+
+header {
+    background: whitesmoke;
+}
+
+.menutren ul li a {
+    text-decoration: none;
+    color: #1b1b1b;
+}
+
+.home {
+    background: url(./img/background.jpg);
+    background-attachment: fixed;
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    z-index: 2;
+
+}
+.noidung1,.noidung2,.noidung3,.noidung4,.noidung5,.noidung6{
+    
+    color: gray;
+    height: 600px;
+    padding:50px 0;
+    text-align: center;
+
+
+}
+.chap1{
+    background: url(./img/anhnen.jpg) ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.chuto{
+    position: relative;
+    color: #fff;
+    font-family: cursive;
+    font-size: 150px;
+    margin-left: 100px;
+    top:220px;
+    
+
+}
+.chap2{
+    background: url(./img/anhnen1.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.chap3{
+
+    background: url(./img/anhnen2.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.chap4{
+    background: url(./img/anhnen3.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.chap5{
+    background: url(./img/anhnen4.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.nut img {
+    position: fixed;
+    top: 443px;
+    right: 20px;
+    z-index: 10;
+}
