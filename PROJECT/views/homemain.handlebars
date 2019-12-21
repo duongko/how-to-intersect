@@ -1,33 +1,61 @@
-<link rel="stylesheet" href="trangchu.css"/>
+<link rel="stylesheet" href="trangchu.css" />
 
 
 <body>
-<div class="trangchu">
-    <div class="menu">
-        <ul>
-            <li><a href="http://localhost:6969/trangchu">Trang chủ</a></li>
-            <li><a href="http://localhost:6969/sanpham">Sản phẩm</a></li>
-            <li><a href="http://localhost:6969/gioithieu">Giới thiệu</a></li>
-            <li class="feetback"><a href="http://localhost:6969/sanpham#">feedback</a></li>
+    <div class="manphu"></div>
+    <div class="trangchu">
+        <div class="menu">
+            <ul>
+                <li><a href="http://localhost:6969/trangchu">Trang chủ</a></li>
+                <li><a href="http://localhost:6969/sanpham">Sản phẩm</a></li>
+                <li><a href="http://localhost:6969/gioithieu">Giới thiệu</a></li>
+                <li class="feetback"><a href="http://localhost:6969/sanpham#">feedback</a></li>
 
-        </ul>
+            </ul>
 
-    </div>
-    <div class="background">
-        <div class="text">
-            <h2>D&N</h2>
-           
         </div>
-        <div class="anhnen">
-            <img src="http://theme.hstatic.net/1000331486/1000529168/14/home-banner.jpg?v=18"/>
-            
+        <div class="background">
+            <div class="iconmenu">
+                <div class="menuicon"></div>
+                <div class="menuicon2"></div>
+                <div class="menuicon3"></div>
+            </div>
+
+
+            <div class="text">
+                <h2>D&N</h2>
+
+            </div>
+            <div class="anhnen">
+                <img src="http://theme.hstatic.net/1000331486/1000529168/14/home-banner.jpg?v=18" />
+
+            </div>
         </div>
     </div>
-</div>
- <script type="text/javascript">
+    <div class="back">X</div>
+    <script type="text/javascript">
         $(document).ready(function () {
             $(".feetback").click(function () {
-            alert("nhan 1 lan nua hien feedback")
+                alert("nhan 1 lan nua hien feedback")
+            })
+            $(".iconmenu").click(function () {
+                $(".manphu").addClass("manche")
+                $(".iconmenu").addClass("an")
+                $(".menu ul ").addClass('tenmenu')
+                $(".text").addClass("chu")
+                $(".back").addClass("comeback")
+
+
+            })
+            
+            $(".back,.text").click(function () {
+                $(".manphu").removeClass("manche")
+                $(".iconmenu").removeClass("an")
+                $(".menu ul ").removeClass('tenmenu')
+                $(".text").removeClass("chu")
+                 $(".back").removeClass("comeback")
+
+
             })
 
         })

@@ -1,4 +1,6 @@
+ <div class="manche"></div>
  <div class="main">
+
     <div class="menu">
         <ul>
             <li><a href="http://localhost:6969/trangchu">Trang chủ</a></li>
@@ -11,6 +13,7 @@
 
     </div>
     <div class="product">
+        
 
         <div class="items" producid="1" id="pro-1">
             <img src="./img/img(1).jpg" alt="">
@@ -374,8 +377,10 @@
     <div class="bag">
         <div class="bag-content">
             <div class="thoat">
-                <p>thoat</p>
+                <p>X</p>
             </div>
+            
+{{!-- viet phan feetback --}}
 
             <div class="container">
                 <h2>Feedback</h2>
@@ -383,9 +388,9 @@
                 <div class="feetback">
                     <form action="/" method="POST">
                         <textarea id="input" class="form-control" rows="4" cols="40" type="text"
-                            name="question"></textarea>
-                        <span>con <span id="character">200</span>/200 ky tu</span>
-                        <button style="display: block;" class="btn btn-primary" type="submit">Gui</button>
+                            name="question" style="height:180px;"></textarea>
+                    
+                        <button style="display: block;width:55px;color:gray" class="btn btn-primary" type="submit">Gui</button>
                     </form>
                 </div>
             </div>
@@ -402,12 +407,14 @@
                 $(".bag-content").animate({ right: 0 },350);
                 $(".product").animate({left:0},350);
                 $(".menu").animate({ opacity: 0 },350);
+                $(".manche").addClass("momit")
               
             })
             $(".thoat p").click(function () {
                 $(".bag-content").animate({ right: -380},350);
                 $(".product").animate({ left:255},350);
                 $(".menu").animate({ opacity: 1 },350);
+                 $(".manche").removeClass("momit")
 
             })
 

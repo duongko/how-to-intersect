@@ -49,6 +49,23 @@
     top: 56px;
 z-index: 2;
 }
+.manche {
+    background: #252a2b;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    top:0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.35s;
+
+}
+.manche.momit{
+    opacity: 0.8;
+    visibility: visible;
+}
 
 .product.out{
     left: 20%;
@@ -132,8 +149,8 @@ z-index: 2;
       
       width:380px;
       height: 100%;
-      background: black;
-      z-index: 3;
+      background:#fff;
+      z-index: 6;
 }
 
 .product-title p{
@@ -232,18 +249,24 @@ z-index: 2;
     line-height: .5em;
 }
 .thoat p{
-    color:#ff7711;
+    color: #fff;
     position: relative;
-   cursor: pointer;;
-    left:340px;
-    top:-70px;
-    font-size: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    
+    cursor: pointer;
+    left: 316px;
+    top: -52px;
+    font-size: 23px;
+    font-family: sans-serif;
+    background: black;
+    width: 38px;
+    height: 24px;
+    border-radius: 50%;
+    text-align: center;
+  
+    padding-top: 15px;
 }
 .thoat p:hover{
-    font-size: 23px;
+    font-size: 25px;
 }
 .container h2{
-    color:#ececec ;
+    color:gray ;
 }
