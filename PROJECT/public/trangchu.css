@@ -174,7 +174,7 @@ z-index: 1;
 
 .iconmenu .menuicon {
     background: #f5deb3;
-    width: 25px;
+    width: 27px;
     height: 4px;
     position: absolute;
     top: 10px;
@@ -183,7 +183,7 @@ z-index: 1;
 }
 .iconmenu .menuicon2 {
     background: wheat;
-    width: 25px;
+    width: 27px;
     height: 4px;
     position: absolute;
     top: 19px;
@@ -193,7 +193,7 @@ z-index: 1;
 
 .iconmenu .menuicon3 {
     background: wheat;
-    width: 25px;
+    width: 27px;
     height: 4px;
     position: absolute;
     top: 27px;
